@@ -1,8 +1,11 @@
+#puts a string
 puts "Mary had a little lamb."
+#puts a string with in a string
 puts "Its fleece ws white s #{'snow'}."
+#puts another string
 puts "and everywhere that Mary went."
-puts "."*10 # what'd that do?
-
+puts "."*10 # what'd that do? it will concatenate ten dots.
+# assign more strings
 end1 = "c"
 end2 = "h" 
 end3 = "e"
