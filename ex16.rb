@@ -1,3 +1,4 @@
+
 filename = ARGV.first
 
 puts "We're going to erase #{filename}"
@@ -7,9 +8,9 @@ puts "If you do want that, hit RETURN."
 $stdin.gets
 
 puts "Opening the file..."
-target = open(filename, 'W')
+target = open(filename, 'w')
 
-puts "Truncating the file. Goodbye!"
+puts "Truncating the file.  Goodbye!"
 target.truncate(0)
 
 puts "Now I'm going to ask you for three lines."
